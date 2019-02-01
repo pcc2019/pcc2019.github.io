@@ -1,0 +1,96 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#header_wrap .inner{
+  text-align: center;
+}
+
+#wrapper{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+#wrapper > svg{
+  align-self: center;
+  padding-bottom: 50px;
+}
+
+#project_title{
+  font-size: 36px;
+}
+
+#top-nav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#top-nav > a{
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  padding: 4px;
+}
+
+// CSS to collapse the registration form.
+
+.checkbox {
+    display: none;
+}
+.checkbox + label:before {
+    content: "+";
+}
+.checkbox:checked + label:before {
+    content: "-";
+}
+.checkbox + label + div {
+    display: none;
+}
+.checkbox:checked + label + div {
+    display: block;
+}
+
+#registration-form{
+  border-style: solid;
+  border-color: #373737;
+  border-width: 4px;
+}
+
+#toggle{
+  display: block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin: 4px;
+}
+
+#toggle::before{
+  background-color: #373737;
+  display: inline-block;
+  line-height: 24px;
+  width: 24px;
+  text-align: center;
+  font-size: 24px;
+  vertical-align: bottom;
+  color: white;
+  margin-right: 4px;
+}
+
+#collapse{
+  margin-top: 12px;
+}
+
+#map{
+  max-width: 100%;
+}
+
+#form-frame{
+  max-width: 100%;
+}
+
+@media screen and (max-width: 640px){
+  #top-nav{
+    justify-content: space-around;
+  }
+}
