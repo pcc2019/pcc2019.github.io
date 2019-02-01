@@ -36,7 +36,7 @@ The conference will be hosted in room L5 of the Andrew Wiles Building, Oxford.
  - Deadline for sending talk abstracts: 1st June 2019
  - Deadline for registration: 1st June 2019
 
-Early-bird registration will cost £30 and registration after 30th April 2019 will cost £40 which include coffee breaks and the conference dinner. Payment details and abstract submission will follow shortly.
+Early-bird registration will cost £30, and registration after 30th April 2019 will cost £40. This includes coffee breaks and the conference dinner. Payment details and abstract submission will follow shortly.
 
 # Travel and Accommodation
 
