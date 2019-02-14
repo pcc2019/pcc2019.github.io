@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+a{
+  color: #0D6CBA;
+}
+
 #header_wrap .inner{
   text-align: center;
 }

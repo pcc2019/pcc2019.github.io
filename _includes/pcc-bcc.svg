@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="185" viewBox="-50 -5 300 185">
+  <title>PCC and BCC logos</title>
   <path d="M5 90l45 80m100 0H50m145-80l-45 80m0-165H50m100 0H50m0 0L5 90M150 5l45 85m-95 0v60m0-60L45 55m110 0l-55 35m95 0l-95 60M5 90l95 60M50 5l105 50m-5-50L45 55m0 0l5 115M155 55l-5 115" stroke-width="1.5" stroke="#fff" fill="none"/>
   <g fill="red">
     <circle cx="50" cy="170" r="5"/>
@@ -19,7 +20,8 @@
     <path d="M90.641 65.904v-.985h.763q1.716 0 2.097-.286.413-.286.413-1.208V46.678q0-.921-.413-1.207-.381-.286-2.097-.286h-.763V44.2h11.218q3.21 0 5.339 1.78 2.16 1.747 2.16 4.13 0 2.352-2.192 4.068-2.161 1.684-5.053 1.684h-5.37v7.563q0 .922.38 1.208.414.286 2.13.286h.763v.985q-1.112-.095-4.703-.095-3.56 0-4.672.095zm6.006-10.868h4.386q1.43 0 2.447-.381 1.048-.414 1.525-.89.477-.509.73-1.303.287-.795.319-1.24.031-.444.031-1.112 0-.699-.031-1.144-.032-.445-.318-1.239-.254-.794-.731-1.271-.477-.509-1.525-.89-1.017-.381-2.447-.381h-2.829q-1.08 0-1.334.222-.223.223-.223 1.049z" stroke-width=".993"/>
   </g>
   <!--  scale(h/90) translateX(90/h(195 + 45/85*80 - (h/85*45) - 62.5*h/90) translateY(90/h(170 - 100h/90))-->
-  <a href="https://britishcombinatorial.wordpress.com" target="_blank">
+  <a href="https://britishcombinatorial.wordpress.com" target="_blank" rel="noopener">
+    <title>British Combinatorial Committee Loho</title>
     <g transform=" scale(0.66667) translate(245.882, 155)" opacity="0.75">
       <g fill="none" stroke="#fff" stroke-width="2">
         <path d="M 10 100 L 115 100"/>
