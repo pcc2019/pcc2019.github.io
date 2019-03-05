@@ -2,7 +2,7 @@
 ---
 The 26th Postgraduate Combinatorial Conference (PCC) will be held in Oxford on 10th-12th June 2019.
 
-The PCC is an established conference organised by, and for, current research students in all areas of combinatorial and discrete mathematics, under the auspices of the British Combinatorial Committee. The PCC is mainly aimed at UK-based students, but also open to those from abroad.
+The PCC is an established conference organised by, and for, current research students in all areas of combinatorial and discrete mathematics, under the auspices of the British Combinatorial Committee. The PCC is mainly aimed at UK-based students, but is also open to those from abroad.
 
 The aim of the conference is to allow research students to discuss their research in a relaxed environment, to gain practice at presenting their research outside of their own department, and to meet other young researchers in their area. Each student is encouraged to contribute by giving a talk which will last 25 minutes (including 5 minutes question and answer time).
 
