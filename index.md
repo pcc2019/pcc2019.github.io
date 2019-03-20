@@ -36,11 +36,11 @@ The conference will be hosted in room L5 of the Andrew Wiles Building, Oxford.
  - Deadline for sending talk abstracts: 1st June 2019
  - Deadline for registration: 1st June 2019
 
-Early-bird registration will cost £30, and registration after 30th April 2019 will cost £40. This includes coffee breaks and the conference dinner. Payment details and abstract submission will follow shortly.
+Early-bird registration will cost £30, and registration after 30th April 2019 will cost £40. This includes coffee breaks and the conference dinner. Payment can be made by following this [link](https://www.oxforduniversitystores.co.uk/conferences-and-events/mathematical-institute/mathematical-institute-events/postgraduate-combinatorial-conference-2019){:target="_blank" rel="noopener"}. Details on abstract submission will follow shortly.
 
 # Travel and Accommodation
 
-We hope to be able to reimburse all students’ travel costs up to a maximum amount of around £75 (details to follow).
+We hope to be able to reimburse all students’ travel costs up to a maximum amount of around £50-60 (details to follow).
 
 Since we expect that most participants prefer to organise their own accommodation, using AirBnB or similar, we haven’t booked any specific accommodation for this meeting. For those that prefer a traditional hotel, here are some options near the conference.
 
