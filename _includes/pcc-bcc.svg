@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="185" viewBox="-50 -5 300 185">
-  <title>PCC and BCC logos</title>
+  <title>PCC and BCC Logos</title>
   <path d="M5 90l45 80m100 0H50m145-80l-45 80m0-165H50m100 0H50m0 0L5 90M150 5l45 85m-95 0v60m0-60L45 55m110 0l-55 35m95 0l-95 60M5 90l95 60M50 5l105 50m-5-50L45 55m0 0l5 115M155 55l-5 115" stroke-width="1.5" stroke="#fff" fill="none"/>
   <g fill="red">
     <circle cx="50" cy="170" r="5"/>
@@ -21,7 +21,7 @@
   </g>
   <!--  scale(h/90) translateX(90/h(195 + 45/85*80 - (h/85*45) - 62.5*h/90) translateY(90/h(170 - 100h/90))-->
   <a href="https://britishcombinatorial.wordpress.com" target="_blank" rel="noopener">
-    <title>British Combinatorial Committee Loho</title>
+    <title>BCC Logo</title>
     <g transform=" scale(0.66667) translate(245.882, 155)" opacity="0.75">
       <g fill="none" stroke="#fff" stroke-width="2">
         <path d="M 10 100 L 115 100"/>
