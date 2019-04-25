@@ -7,6 +7,10 @@ a{
   color: #0D6CBA;
 }
 
+svg{
+  width: 100%;
+}
+
 #header_wrap .inner{
   text-align: center;
 }
@@ -92,6 +96,19 @@ a{
 #form-frame{
   max-width: 100%;
 }
+
+#sponsors-logos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#sponsors-logos svg{
+  height: 100px;
+  max-width: 100%;
+  width: auto;
+}
+
 
 @media screen and (max-width: 660px){
   #top-nav{

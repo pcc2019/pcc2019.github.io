@@ -59,3 +59,16 @@ Participants with children may wish to apply for a Childcare Support Grant from 
  - Candy Bowtell ([candida.bowtell@maths.ox.ac.uk](mailto:candida.bowtell@maths.ox.ac.uk))
  - James Aaronson ([james.aaronson@maths.ox.ac.uk](mailto:james.aaronson@maths.ox.ac.uk))
  - Tom Johnston ([thomas.johnston@maths.ox.ac.uk](mailto:thomas.johnston@maths.ox.ac.uk))
+
+# Sponsors
+
+The 2019 conference is made possible by the generous support of the [British Combinatorial Committee](https://britishcombinatorial.wordpress.com/){:target="_blank" rel="noopener"} and the [London Mathematical Society](https://www.lms.ac.uk/){:target="_blank" rel="noopener"}.
+
+<div id="sponsors-logos">
+  <a href="https://britishcombinatorial.wordpress.com/" target="_blank" rel="noopener">
+    {% include bcc-logo.svg %}
+  </a>
+  <a href="https://www.lms.ac.uk/" target="_blank" rel="noopener">
+    {% include lms-logo.svg %}
+  </a>
+</div>
