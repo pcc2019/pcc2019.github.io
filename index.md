@@ -36,11 +36,13 @@ The conference will be hosted in room L5 of the Andrew Wiles Building, Oxford.
  - Deadline for sending talk abstracts: 1st June 2019
  - Deadline for registration: 1st June 2019
 
-Early-bird registration will cost £30, and registration after 30th April 2019 will cost £40. This includes coffee breaks and the conference dinner. Payment can be made by following this [link](https://www.oxforduniversitystores.co.uk/conferences-and-events/mathematical-institute/mathematical-institute-events/postgraduate-combinatorial-conference-2019){:target="_blank" rel="noopener"}. Details on abstract submission will follow shortly.
+Early-bird registration will cost £30, and registration after 30th April 2019 will cost £40. This includes coffee breaks and the conference dinner. Payment can be made by following this [link](https://www.oxforduniversitystores.co.uk/conferences-and-events/mathematical-institute/mathematical-institute-events/postgraduate-combinatorial-conference-2019){:target="_blank" rel="noopener"}.
+
+To submit an abstract, download the zip archive <a href="pcc2019_abstracts.zip" download>here</a> and follow the instructions in the README. If you have any problems, contact Candy ([candida.bowtell@maths.ox.ac.uk](mailto:candida.bowtell@maths.ox.ac.uk)).
 
 # Travel and Accommodation
 
-We hope to be able to reimburse all students’ travel costs up to a maximum amount of around £50-60 (details to follow).
+We hope to be able to reimburse all students’ travel costs up to a maximum amount of around £50-60 (details to follow). There is very little parking at the Andrew Wiles Building and driving should be avoided if at all possible. For more information about the parking at the Andrew Wiles Building, click [here](https://www.maths.ox.ac.uk/members/building-information/parking-travel){:target="_blank" rel="noopener"}.
 
 Since we expect that most participants prefer to organise their own accommodation, using AirBnB or similar, we haven’t booked any specific accommodation for this meeting. For those that prefer a traditional hotel, here are some options near the conference.
 
