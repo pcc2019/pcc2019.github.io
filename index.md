@@ -26,7 +26,7 @@ The conference will be hosted in room L5 of the Andrew Wiles Building, Oxford.
 <div id="registration-form">
   <input id="toggle-form" class="checkbox" type="checkbox"/><label id="toggle" for="toggle-form">Click to show/hide the registration form</label>
   <div id="collapse">
-  <iframe title="Registration form" src="https://docs.google.com/forms/d/e/1FAIpQLSdevnGAeSfMDP4R2wqwullEZAvhWmhHxWu8XPYeRuh1rVsFBg/viewform?embedded=true" width="632" height="1650" frameborder="0" marginheight="0" marginwidth="0" id="form-frame">Loading...</iframe>
+    <span id="closed-message">Registration has closed.</span>
   </div>
 </div>
 
