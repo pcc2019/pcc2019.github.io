@@ -1,0 +1,310 @@
+---
+---
+
+$width:  200px;
+
+#time-table-wrapper{
+  position: relative;
+}
+
+#time-table-container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+#more-information{
+  position: absolute;
+  height: 200px;
+  width: 100%;
+}
+
+#days{
+  flex-grow: 1;
+}
+
+.day{
+  height: 100%;
+  display:flex;
+  flex-direction: row;
+}
+
+.times{
+  font-size: 0.8rem;
+  height: 100%;
+  position: relative;
+}
+
+.time{
+  position: absolute;
+  height: 1rem;
+  line-height: 1rem;
+  left: 5px;
+}
+
+#placeholder{
+  position: relative;
+  visibility: hidden;
+  margin: 5px;
+}
+
+.divider{
+  border-top: 1px solid black;
+  height: 0px;
+  position: absolute;
+  width: 100%;
+  opacity: 0.2;
+}
+
+.events{
+  flex-grow: 1;
+  position: relative;
+  padding: 0px;
+}
+
+.event{
+  position: absolute;
+  transition: transform 0.2s;
+  width: 100%;
+  border: solid transparent 10px;
+  border-top: 0px;
+  border-bottom: 0px;
+  box-sizing: border-box;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.expanded{
+  z-index: 3;
+}
+
+.basic-information{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-top: 1rem;
+}
+
+.event-times{
+  position: absolute;
+  top: 0;
+  font-size: 0.8rem;
+  padding-left: 5px;
+}
+
+.title{
+  font-size: 1.2rem;
+  align-self: center;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+.name{
+  font-size: 0.8rem;
+  align-self: center;
+}
+
+.description{
+  text-align: justify;
+}
+
+.registration-odd{
+  color: white;
+  background: repeating-linear-gradient(
+  45deg,
+   #D32F2F,
+  #D32F2F 10px,
+  #C62828 10px,
+  #C62828 20px
+);
+padding-top: 0;
+}
+
+.lunch{
+  background-color: #6c71c4;
+}
+
+.expanded .more-information{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.more-information{
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transition: clip-path 0.2s;
+  min-height: 100%;
+  background-color: white;
+  padding: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#more-information-hide{
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.2s visibility 0.2s;
+}
+
+.close-wrapper{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+
+.expanded .close-wrapper{
+  display: block;
+}
+
+.close::before{
+  height: 20px;
+  background-color: white;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+}
+
+.close::after{
+  height: 20px;
+  background-color: white;
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+}
+
+$tabs-animation-duration: 0.3s;
+$accent-colour: red;
+
+.day-option{
+  align-self: center;
+  cursor: pointer;
+          flex-basis:0px;
+          flex-grow:1;
+  margin: 0;
+  padding: 10px;
+  text-align:center;
+  text-decoration: none;
+  transition: color $tabs-animation-duration ease-out;
+
+}
+
+.day-option.selected{
+  color: $accent-colour;
+}
+
+#indicator{
+  background-color: $accent-colour;
+  bottom: 0;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  transition: transform $tabs-animation-duration ease-out;
+}
+
+#tabs-container{
+	display: flex;
+	position: relative;
+}
+
+#loading{
+	top: 50%;
+	        transform: translateY(-50%);
+}
+
+.talk-odd{
+  color: white;
+  background: repeating-linear-gradient(
+  45deg,
+   #689F38,
+  #689F38 10px,
+  #558B2F 10px,
+  #558B2F 20px
+
+);
+}
+.talk-even{
+  color: white;
+  background: repeating-linear-gradient(
+  135deg,
+   #689F38,
+  #689F38 10px,
+  #558B2F 10px,
+  #558B2F 20px
+);
+}
+
+.invited-odd{
+  color: white;
+  background: repeating-linear-gradient(
+  45deg,
+   #00796b,
+  #00796b  10px,
+  #00695c  10px,
+  #00695c  20px
+);
+}
+.invited-even{
+  color: white;
+  background: repeating-linear-gradient(
+  135deg,
+   #00796b,
+  #00796b  10px,
+  #00695c 10px,
+  #00695c  20px
+);
+}
+
+.lunch-odd, .lunch-even{
+  border: solid #ffc107;
+}
+
+.break-odd, .break-even{
+  border: solid #ffc107;
+  padding: 0;
+}
+
+.social-odd{
+  color: white;
+  background: repeating-linear-gradient(
+  45deg,
+   #0288d1,
+  #0288d1  10px,
+  #0277bd  10px,
+  #0277bd  20px
+);
+}
+.social-even{
+  color: white;
+  background: repeating-linear-gradient(
+  135deg,
+   #0288d1,
+  #0288d1  10px,
+  #0277bd 10px,
+  #0277bd  20px
+);
+}
