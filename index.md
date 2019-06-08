@@ -25,6 +25,22 @@ The conference will be hosted in room L5 of the Andrew Wiles Building, Oxford.
 
 The conference handbook which contains the schedule, all the abstracts and lots of other information is available to download here: [handbook](pcc2019-handbook.pdf){:target="_blank"}.
 
+# Lunch suggestions
+
+There is a café in the Andrew Wiles Building which sells hot meals, sandwiches and salads at lunch time and coffee and cakes throughout the day. The café also serves breakfast until 11:00. For those that don't mind walking a little further, we have listed a few suggestions below.
+
+ - Manos — Greek food bar — 105 Walton St, Oxford, OX2 6EB
+ - [Japanese food van](https://www.im-japanese.com/) (Tuesday only) — a popular choice with various (large) lunch boxes for about £6.50 — outside the AWB on Woodstock Road.
+ -  Will’s Deli — a selection of salads and hot dishes which change daily — 15 Woodstock Rd, Oxford, OX2 6HA
+ -  Taylor’s Café — Sandwich shop — 1 Woodstock Rd, Oxford, OX2 6HA
+ - Najar’s Place - Very tasty
+falafel wraps for £3-4 — outside St John's College on St Giles’, Oxford, OX1 3LU
+ -  The Covered Market — historic market with permanent stalls including a plethora of places to eat and/or get food to takeaway — Market St, Oxford, OX1 3DZ
+ - Gloucester Green (Wednesday only) — ‘local foods from
+around the world’ (food vans offering a variety of nice
+options) — Oxford, OX1 2BU
+
+
 # Fees and Registration
 
 <div id="registration-form">
