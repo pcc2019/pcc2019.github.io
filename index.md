@@ -84,11 +84,22 @@ Participants with children may wish to apply for a Childcare Support Grant from 
 
 The 2019 conference is made possible by the generous support of the [British Combinatorial Committee](https://britishcombinatorial.wordpress.com/){:target="_blank" rel="noopener"} and the [London Mathematical Society](https://www.lms.ac.uk/){:target="_blank" rel="noopener"}.
 
-<div id="sponsors-logos">
+<div class="sponsors-logos">
   <a href="https://britishcombinatorial.wordpress.com/" target="_blank" rel="noopener">
     {% include bcc-logo.svg %}
   </a>
   <a href="https://www.lms.ac.uk/" target="_blank" rel="noopener">
     {% include lms-logo.svg %}
+  </a>
+  </div>
+
+  The conference would also like to thank [Oxford Mathematics](https://www.maths.ox.ac.uk/){:target="_blank" rel="noopener"} and [Lady Margaret Hall](https://www.lmh.ox.ac.uk/){:target="_blank" rel="noopener"} for letting us use their facilities and for their support in organising the conference.
+
+  <div class="sponsors-logos">
+  <a href="https://www.ox.ac.uk/" target="_blank" rel="noopener">
+    {% include oxford-logo.svg %}
+  </a>
+  <a href="http://www.lmh.ox.ac.uk/" target="_blank" rel="noopener">
+    {% include lmh-logo.svg %}
   </a>
 </div>
