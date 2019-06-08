@@ -21,6 +21,10 @@ The conference will be hosted in room L5 of the Andrew Wiles Building, Oxford.
 - Dr Natasha Morrison (Cambridge/Rio)
 - Dr Ben Barber (Bristol)
 
+# Handbook
+
+The conference handbook which contains the schedule, all the abstracts and lots of other information is available to download here: [handbook](pcc2019-handbook.pdf){:target="_blank"}.
+
 # Fees and Registration
 
 <div id="registration-form">
