@@ -1,0 +1,164 @@
+---
+layout: default
+photos:
+    - title: Conference Photo
+      src: "assets/photos/00.jpg"
+    - title: Tash presenting
+      src: "assets/photos/01.jpg"
+    - title: Registration
+      src: "assets/photos/02.jpg"
+    - title: Oscar presenting
+      src: "assets/photos/03.jpg"
+    - title: Oscar presenting 2
+      src: "assets/photos/04.jpg"
+    - title: Presentation
+      src: "assets/photos/05.jpg"
+    - title: Audeience
+      src: "assets/photos/06.jpg"
+    - title: Audeience 2
+      src: "assets/photos/07.jpg"
+    - title: Audeience 3
+      src: "assets/photos/08.jpg"
+    - title: Audeience 4
+      src: "assets/photos/09.jpg"
+    - title: Audeience 5
+      src: "assets/photos/10.jpg"
+    - title: Audeience 6
+      src: "assets/photos/11.jpg"
+    - title: Audeience 7
+      src: "assets/photos/12.jpg"
+    - title: Audeience 8
+      src: "assets/photos/13.jpg"
+    - title: Audeience 9
+      src: "assets/photos/14.jpg"
+    - title: Audeience 10
+      src: "assets/photos/15.jpg"
+    - title: Audeience 11
+      src: "assets/photos/16.jpg"
+    - title: Audeience 12
+      src: "assets/photos/17.jpg"
+    - title: Registration 2
+      src: "assets/photos/18.jpg"
+    - title: Reception 1
+      src: "assets/photos/19.jpg"
+    - title: Reception 2
+      src: "assets/photos/20.jpg"
+    - title: Pub 
+      src: "assets/photos/21.jpg"
+    - title: Pub 2
+      src: "assets/photos/22.jpg"
+    - title: Pub 3
+      src: "assets/photos/23.jpg"
+    - title: Pub 4
+      src: "assets/photos/24.jpg"
+    - title: Pub 5
+      src: "assets/photos/25.jpg"
+    - title: Pub 6
+      src: "assets/photos/26.jpg"
+    - title: Pub 7
+      src: "assets/photos/27.jpg"
+    - title: Pub 8
+      src: "assets/photos/28.jpg"
+    - title: Pub 9
+      src: "assets/photos/29.jpg"
+    - title: Pub 10
+      src: "assets/photos/30.jpg"
+    - title: Common room
+      src: "assets/photos/31.jpg"
+    - title: James
+      src: "assets/photos/32.jpg"                                                                                                                                                                            
+---
+
+<link rel="stylesheet" type="text/css" href="assets/css/modal.css"/>
+
+
+<div id="modal-wrapper" class="modal">
+    <div id="close-wrapper" class="close-wrapper">
+        <span class="close"></span>
+    </div>
+    <div class="modal-content">
+        <img id="img" src="" alt=""/>    
+    </div>
+    <a id="prev" class="prev">❮</a>
+    <a id="next" class="next">❯</a>
+    <div class="caption-wrapper">
+            <p id="caption"></p>
+        </div>
+  </div>
+  <div class="gallery">
+        {% for photo in page.photos %}
+            <img class="gallery-item" src="{{photo.src}}" alt="{{photo.title}}">
+        {% endfor %}
+    </div>
+
+  <script>
+      var images = [
+          {% for photo in page.photos %}
+            {title: "{{photo.title}}", src: "{{photo.src}}"},
+          {% endfor %}
+      ]
+
+    var modal;
+    var currentSlide = 0;
+    var img;
+    var caption;
+    var scrollY;
+
+      // Open the Modal
+    function openModal() {
+        modal.style.display = "flex";
+        scrollY = window.pageYOffset
+    }
+
+    // Close the Modal
+    function closeModal() {
+        modal.style.display = "none";
+        window.scroll(0, scrollY)
+        
+    }
+
+    function show(title, src){
+        img.src = src;
+        img.alt = title;
+        caption.innerHTML = title;
+    }
+
+    function showNext(){
+        currentSlide = (currentSlide + 1) % images.length;
+        show(images[currentSlide].title, images[currentSlide].src)
+    }
+
+    function showPrevious(){
+        currentSlide = (currentSlide + images.length - 1) % images.length;
+        show(images[currentSlide].title, images[currentSlide].src)
+    }
+
+    window.addEventListener('DOMContentLoaded', (event) => {
+        modal = document.getElementById('modal-wrapper')
+        img = document.getElementById('img')
+        caption = document.getElementById('caption')
+        var galleryImages = document.getElementsByClassName("gallery-item")
+        for (let i = 0; i < galleryImages.length; i++){
+            var image = galleryImages[i]
+            image.addEventListener("click", (event) => {openModal();show(images[i].title, images[i].src); currentSlide = i})
+        }
+        document.getElementById('close-wrapper').addEventListener("click", closeModal);
+        document.getElementById('next').addEventListener("click", showNext);
+        document.getElementById('prev').addEventListener("click", showPrevious);
+    } );
+
+    document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 27) {
+            closeModal();
+        }
+
+        if (evt.keyCode == 37){
+            showPrevious();
+        }
+
+        if (evt.keyCode == 39){
+            showNext();
+        }
+    };
+  </script>
